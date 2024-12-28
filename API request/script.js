@@ -9,7 +9,7 @@ xhr.onreadystatechange = function(){
         // const data =(this.responseText);
 
         console.log(data.avatar_url);
-        console.log(data.name);
+        // console.log(data.name);
     }
 }
 xhr.send();
